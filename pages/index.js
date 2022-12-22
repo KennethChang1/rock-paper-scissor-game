@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Game from "./components/Game";
 import AppContext from "../AppContext";
-import Paper from "./components/paper";
+import Paper from "./components/Paper";
 import Scissor from "./components/Scissor";
 import Rock from "./components/Rock";
 /* eslint-disable @next/next/no-img-element */

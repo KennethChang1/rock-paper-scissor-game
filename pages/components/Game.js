@@ -1,6 +1,6 @@
 import { useContext, useState, useEffect } from "react";
 import AppContext from "../../AppContext";
-import Paper from "./paper";
+import Paper from "./Paper";
 import Rock from "./Rock";
 import Scissor from "./Scissor";
 
