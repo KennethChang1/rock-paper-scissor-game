@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #1F3757;
+  padding: 32px;
+}
+
+.container {
+  max-width: 50%;
+  margin: auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 23px;
+  border: 1px solid white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.header__text > p {
+  color: white;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 16px;
+}
+
+.header__score {
+  background-color: white;
+  text-align: center;
+  width: 80px;
+  padding: 10px 0;
+  border-radius: 4px;
+}
+
+.header__score > p:nth-child(1) {
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.56px;
+}
+
+.header__score > p:nth-child(2) {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.upper-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.bottom-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon-container {
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px 26px;
+  border-radius: 100%;
+}
+
+.icon-container-blue {
+  border: 15px solid #4664F4;
+}
+
+.icon-container-yellow {
+  border: 15px solid #EB9F0E;
+}
+
+.icon-container-red {
+  border: 15px solid #DB2E4D;
+}
+
+.icon-img {
+  width: 40px;
+}
+
+.off {
+  display: none !important;
+}
+
+.game-name {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.game-wrapper {
+  text-align: center;
+}
+
+.blank-circle {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+.win-text {
+  font-size: 56px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
