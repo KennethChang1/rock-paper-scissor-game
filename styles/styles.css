@@ -13,8 +13,13 @@ body {
 }
 
 .container {
-  max-width: 50%;
   margin: auto;
+}
+
+@media screen and (min-width: 390px) {
+  .container {
+    max-width: 500px;
+  }
 }
 
 .header {
@@ -78,6 +83,7 @@ body {
 }
 
 .icon-container {
+  cursor: pointer;
   background-color: white;
   width: -webkit-fit-content;
   width: -moz-fit-content;

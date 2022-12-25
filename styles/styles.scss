@@ -14,7 +14,9 @@ body{
 }
 
 .container{
-    max-width: 50%;
+    @media screen and (min-width: 390px){
+        max-width: 500px;
+    }
     margin: auto;
 }
 
@@ -67,6 +69,7 @@ body{
 }
 
 .icon-container{
+    cursor: pointer;
     background-color: white;
     width: fit-content;
     padding: 20px 26px;
